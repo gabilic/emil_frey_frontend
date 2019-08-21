@@ -1,0 +1,37 @@
+mat-toolbar {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2),
+                0 6px 10px 0 rgba(0, 0, 0, .14),
+                0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        float: left;
+
+        a {
+            border-radius: 5px;
+            color: white;
+            font-size: .8em;
+            margin-right: 1em;
+            padding: .5em;
+            text-transform: uppercase;
+
+            &:hover {
+                background: #3949AB;
+            }
+        }
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.nav-selected {
+    font-weight: bold;
+}
